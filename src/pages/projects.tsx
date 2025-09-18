@@ -83,7 +83,7 @@ export default function Projects() {
             <CardDescription className="text-sm text-white mt-4 align-items items-center">
               <img
                 className="items-center"
-                src="https://drive.google.com/file/d/1KDb1ROSwWjs7Cegazt2AbrNZIxgoprx4/view?usp=sharing"
+                src="public/another-one.png"
                 width={40}
                 height={40}
                 alt="Aceternity Logo"
