@@ -86,7 +86,7 @@ export default function Projects() {
                 src="public/another-one.png"
                 width={40}
                 height={40}
-                alt="Aceternity Logo"
+                alt="another one"
               />
             </CardDescription>
           </CardHeader>
