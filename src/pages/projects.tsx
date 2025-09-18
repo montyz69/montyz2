@@ -146,6 +146,37 @@ export default function Projects() {
         </Card>
       </div>
       <div className="m-5 flex flex-wrap justify-center items-center gap-10">
+         <Card className="bg-transparent w-72 h-64">
+          <CardHeader>
+            <CardTitle className="text-white text-xl">Portfolio 2</CardTitle>
+            <CardDescription className="text-sm text-white mt-4">
+              this one
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Button>
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-transparent text-white underline"
+              >
+                Live Demo
+              </a>
+            </Button>
+          </CardContent>
+          <CardFooter>
+            <a
+              href="https://github.com/montyz69/montyz2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent text-white underline"
+            >
+              <IconBrandGithub className="text-white-500 dark:text-neutral-400" />
+
+            </a>
+          </CardFooter>
+        </Card>
         <Card className="bg-transparent w-72 h-64">
           <CardHeader>
             <CardTitle className="text-white text-xl">Doc Finder</CardTitle>
@@ -153,7 +184,7 @@ export default function Projects() {
               Find the content
             </CardDescription>
           </CardHeader>
-          <CardContent>Live coming soon</CardContent>
+          <CardContent>Live coming soon...</CardContent>
           <CardFooter>
             <div className="flex flex-wrap justify-center items-center gap-2">
               <a
@@ -186,7 +217,7 @@ export default function Projects() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            Live Coming Soon
+            Live Coming Soon...
           </CardContent>
           <CardFooter>
             <a
@@ -201,31 +232,6 @@ export default function Projects() {
           </CardFooter>
         </Card>
 
-        <Card className="bg-transparent w-72 h-64">
-          <CardHeader>
-            <CardTitle className="text-white text-xl">Portfolio 2</CardTitle>
-            <CardDescription className="text-sm text-white mt-4">
-              this one
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Button>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-transparent text-white underline"
-              >
-                Live Demo
-              </a>
-            </Button>
-          </CardContent>
-          <CardFooter>
-            <Link to="">
-              <IconBrandGithub className="text-white-500 dark:text-neutral-400" />
-            </Link>
-          </CardFooter>
-        </Card>
         <Card className="bg-transparent w-72 h-64">
           <CardHeader>
             <CardTitle className="text-white text-xl"></CardTitle>
