@@ -1,11 +1,11 @@
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
+
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
-  IconExchange,
   IconHome,
-  IconNewSection,
+  IconPick,
   IconTerminal2,
 } from "@tabler/icons-react";
 
@@ -29,18 +29,11 @@ export function FloatingDockDemo() {
     {
       title: "Experience",
       icon: (
-        <IconNewSection className="h-full w-full text-white-500 dark:text-neutral-300" />
+        <IconPick className="h-full w-full text-white-500 dark:text-neutral-300" />
       ),
       href: "/experience",
     },
 
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-white-500 dark:text-neutral-300" />
-      ),
-      href: "",
-    },
     {
       title: "LinkedIn",
       icon: (
@@ -55,10 +48,18 @@ export function FloatingDockDemo() {
       ),
       href: "https://github.com/montyz69",
     },
+    {
+      title: "Twitter",
+      icon: (
+        <IconBrandX className="h-full w-full text-white-500 dark:text-neutral-300" />
+      ),
+      href: "https://x.com/ManthanSonawan5",
+    },
+    
     
   ];
   return (
-    <div className="fixed bottom-8 left-1/2 -translate-x-1/2">
+    <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50">
       <FloatingDock
         mobileClassName="translate-y-20 bg-transparent"
         items={links}

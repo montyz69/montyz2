@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/8bit/card";
 import { Button } from "@/components/ui/button";
 import { IconBrandGithub, IconBrandYoutube } from "@tabler/icons-react";
-import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
