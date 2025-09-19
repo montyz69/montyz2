@@ -78,7 +78,7 @@ export default function Experience() {
                 What is the name of the Company?
               </AccordionTrigger>
               <AccordionContent className="text-2xl">
-                HashedIn by Deloitte , Banglore , India
+                HashedIn by Deloitte , Bangaluru , India
               </AccordionContent>
             </AccordionItem>
           </Accordion>
